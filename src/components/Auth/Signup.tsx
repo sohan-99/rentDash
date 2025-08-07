@@ -132,7 +132,6 @@ export default function Signin() {
                   borderRadius: "20px",
                   backgroundColor: "transparent",
                   color: "#fff",
-                  marginBottom: "6px",
                 }}
               >
                 Log in
@@ -147,7 +146,6 @@ export default function Signin() {
                   height: "40px",
                   border: "none",
                   borderRadius: "20px",
-                  marginBottom: "6px",
                 }}
               >
                 Register
