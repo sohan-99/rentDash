@@ -1,9 +1,8 @@
-import Signup from "@/components/Auth/Signup";
-
+import LandingPage from "./LandingPage";
 
 const page = () => {
   return (
-   <Signup />
+    <LandingPage />
   );
 };
 
