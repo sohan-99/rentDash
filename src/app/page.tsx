@@ -1,9 +1,8 @@
-import Signup from "@/components/Auth/Signup";
-import React from "react";
+import Signin from "@/components/Auth/Signin";
 
 const page = () => {
   return (
-    <Signup />
+    <Signin />
   );
 };
 
