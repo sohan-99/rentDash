@@ -109,11 +109,13 @@ export default function Signin() {
             <div
               style={{
                 display: "flex",
+                flexWrap: "wrap",
                 marginBottom: "30px",
                 backgroundColor: "rgb(73, 187, 189,0.4)",
                 borderRadius: "25px",
                 padding: "4px",
-                width: "300px",
+                width: "100%",
+                maxWidth: "300px",
                 alignItems: "center",
                 marginLeft: "auto",
                 marginRight: "auto",
@@ -122,13 +124,15 @@ export default function Signin() {
               <Button
                 type="primary"
                 style={{
-                  width: "132px",
+                  flex: 1,
+                  minWidth: "120px",
+                  height: "40px",
+                  border: "none",
+                  borderRadius: "20px",
                   backgroundColor: "rgb(73, 187, 189,1.0)",
                   opacity: 0.8,
                   color: "#fff",
-                  height: "30px",
-                  border: "none",
-                  borderRadius: "20px",
+                  marginBottom: "6px",
                 }}
               >
                 Log in
@@ -136,11 +140,13 @@ export default function Signin() {
               <Button
                 style={{
                   flex: 1,
+                  minWidth: "120px",
                   height: "40px",
                   border: "none",
                   borderRadius: "20px",
                   backgroundColor: "transparent",
                   color: "#fff",
+                  marginBottom: "6px",
                 }}
               >
                 Register
